@@ -10,7 +10,7 @@ import LineSeg from "./LineSeg";
 
 const SegQuestion = (props) => {
     let { select, setSelect, question, text, setText } = props
-
+//ניסיון
     const index = select.indexOf(select.find(q => q._id == question._id))
 
     const indexForText = text.indexOf(text.find(q => q._id == question._id))
